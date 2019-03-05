@@ -57,4 +57,3 @@ def shortened_tweet_truncator(tweets)
     word_substituter(tweets)
   end
 end
-end
