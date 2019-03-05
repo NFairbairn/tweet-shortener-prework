@@ -40,15 +40,16 @@ def bulk_tweet_shortener(tweets)
   end
 end
 
-def selective_tweet_shortener(tweet)
+def selective_tweet_shortener(tweets)
   if tweet.length >= 141
-    word_substituter(tweet)
+    word_substituter(tweets)
   else
     tweet
   end
 end
 
 
-def shortened_tweet_truncator
+def shortened_tweet_truncator(tweets)
+  short_boi = word_substituter
 
 end
