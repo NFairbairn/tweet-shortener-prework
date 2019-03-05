@@ -55,5 +55,6 @@ def shortened_tweet_truncator(tweets)
     short_boi[141..1000].chomp
   else
     word_substituter(tweets)
-
+  end
+end
 end
