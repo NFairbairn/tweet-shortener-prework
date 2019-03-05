@@ -56,6 +56,6 @@ def shortened_tweet_truncator(tweet)
   if short_boi.length >= 141
       word_substituter(tweets)
   else
-  short_boi[141..1000].chomp
+    short_boi[141..1000].chomp
   end
 end
